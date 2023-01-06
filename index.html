@@ -67,21 +67,23 @@
               <br>
               <input type="text">
               <br>
-              <label for="Porject-">Project Type</label>
+              <label for="porject-type">Project Type</label>
               <br>
-              <!-- project type drop down -->
+              <select name="project-type" id="project-type">
+                <option value="front-end">Front end</option>
+                <option value="back-end">Back End</option>
+                <option value="mobile">Mobile</option>
+                <option value="full-stack">Full Stack</option>
+              </select>
               <br>
-              <label for="Porject-">Due Date</label>
+              <label for="due-date">Due Date</label>
               <br>
-              <!-- pick date calendar  -->
-              <br>
-              <button type="button" class="btn btn-primary">Add Project</button>
-              <button type="button" class="btn btn btn-outline-primary">Cancel</button>
+              <input type="date">
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">Add Project</button>
           </div>
         </div>
       </div>
