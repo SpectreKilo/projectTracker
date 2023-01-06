@@ -11,3 +11,8 @@ body {
     background-color: var(--main-color);
 }
 
+#header {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+}
